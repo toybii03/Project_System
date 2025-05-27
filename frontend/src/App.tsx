@@ -57,7 +57,7 @@ function App() {
           }
         />
         <Route
-          path="/feedback"
+          path="/feedback-analytics"
           element={
             <RequireAuth>
               <FeedbackAnalytics />
